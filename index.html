@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="path/to/favicon.ico">
+	<style>
+		/* Style for navigation bar */
+		nav {
+			background-color: #0ad84f;
+			overflow: hidden;
+		}
+		
+		nav a {
+			float:right;
+			color: white;
+			text-align: right;
+			padding: 20px 26px;
+			text-decoration: navy;
+			font-size: 20px;
+		}
+		hi {float:center;
+			color: white;
+			text-align: center;
+			padding: 20px 26px;
+			text-decoration: navy;
+			font-size: 40px;
+
+		}
+		
+		nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		
+		nav a.active {
+			background-color: #4CAF50;
+			color: white;
+		}
+		.slideshow-container {
+  position:relative;
+  margin: 0cm;
+  max-width: 1100px;
+}
+
+.mySlides {
+  display: none;
+  width: 120%;
+}
+
+.mySlides img {
+  width:100%;
+  height: 500px;
+  object-fit:cover;
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -22px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(6, 248, 78, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(13, 206, 55, 0.5);
+  color: #5228e7;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot-container {
+  text-align: center;
+  margin-top: 20px;
+}
+ {
+  background-color: #fff;
+}
+	</style>
+</head>
+<body style="background-color: aqua;">
+	<!-- Navigation bar -->
+	<nav style="font-size: larger;">
+		<hi style="color: brown;"><i><b>Car World </i></b></hi>
+		<a href="more.html"target="content of the selected html file">more</a>
+		<a href="contact2.html"target="content of the selected html file">contact2</a>
+		<a href="info.html"target="content of the selected html file">info</a>
+		<a href="about.html"target="content of the selected html file">about</a>
+		<a class="active" href="home.html"target="content of the selected html file">home</a>
+	</nav>
+	
+		<div class="slideshow-container" style="font-size: medium;">
+			<div class="mySlides">
+			  <img src="2022-mclaren-artura-hybrid.jpg">
+			</div>
+			<div class="mySlides">
+			  <img src="Screenshot_20230218-164535.jpg">
+			</div>
+			<div class="mySlides">
+			  <img src="image-181-e1621123994654.webp">
+			</div>
+			
+			  <div class="mySlides">
+				<img src="sports.jpg">
+				</div>
+				
+			<div class="mySlides">
+						<img src="1384911451000-gt-r5.webp">
+						</div>
+		  </div>
+		  <script>
+			var slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}
+			  slides[slideIndex-1].style.display = "block";
+			  setTimeout(showSlides, 2000); // Change image every 4 seconds
+			}
+		  </script></td>
+		  <div class="introduction">
+			<h2 style="color: brown;">Welcome to Car Nation</h2>
+			<p>Car Nation is your go-to source for all things related to cars. Our mission is to provide you with the latest news, reviews, and information about cars, including the newest models, upcoming releases, and expert insights from our team of automotive enthusiasts.</p>
+			<p>Whether you're a car enthusiast or simply looking to buy your next vehicle, Car Nation has everything you need to stay informed and make informed decisions.</p>
+		  </div>
+		  <table>
+			<div class="introduction">
+				<h2 style="color: brown;">Welcome to Car Nation</h2>
+				<p>Car Nation is your go-to source for all things related to cars. Our mission is to provide you with the latest news, reviews, and information about cars, including the newest models, upcoming releases, and expert insights from our team of automotive enthusiasts.</p>
+				<p>Whether you're a car enthusiast or simply looking to buy your next vehicle, Car Nation has everything you need to stay informed and make informed decisions.</p>
+			  </div>
+			  <td>
+				<h2>The History of the Automobile</h2>
+				<p>The automobile has a rich history dating back to the 19th century. From the invention of the first gasoline-powered car to the rise of electric vehicles, the automobile has changed significantly over time.</p>
+				<a href="#">Insert image of early automobile</a>
+			  </td>
+			  
+			  <td>
+				<h2>The Future of Self-Driving Cars</h2>
+				<p>Self-driving cars are the next big thing in the automotive industry. With the potential to reduce accidents and improve transportation efficiency, self-driving cars are expected to become more common in the coming years.</p>
+				<a href="#">Insert image of self-driving car</a>
+			  </td>
+			  
+			  <td>
+				<h2>The Top 10 Sports Cars of 2023</h2>
+				<p>Looking for a high-performance sports car? Check out our list of the top 10 sports cars of 2023, featuring the latest models from top brands like Ferrari, Lamborghini, and Porsche.</p>
+				<a href="#">Insert image of sports car</a>
+			  </td>
+			  
+			  <td>
+				<h2>Tips for Maintaining Your Car's Engine</h2>
+				<p>Proper engine maintenance is essential for keeping your car running smoothly and preventing costly repairs. In this article, we share some tips for maintaining your car's engine, including changing the oil regularly and checking the air filter.</p>
+				<a href="#">Insert image of car engine</a>
+			  </td>
+		
+	
+	
+	
+</body>
+</html>
